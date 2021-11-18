@@ -1,0 +1,30 @@
+SSN,NAME,CAMPUS_ADDRESS,HOME_ADDRESS,PHONE_NUMBER,CARD_NUMBER,CARD_EXPIRY_DATE,IS_PROFESSOR_FLAG,Member_Type
+4423456789,Mr. Trump,6649 N Blue Gum St,386 9th Ave N,9948451427,1001671,1/1/2023,1,Active
+5545673212, Joe Biden,4 B Blue Ridge Blvd,74874 Atlantic Ave,8103749840,1001672,2/1/2023,0,Inactive
+4567342215,H. Clintton,8 W Cerritos Ave #54,366 South Dr,7662644130,1001673,1/3/2023,1,Inactive
+9864849404,Roderford,639 Main St,45 E Liberty St,9079212010,1001674,1/4/2023,1,Active
+6542315900,Roosevelt ,34 Center St,4 Ralph Ct,5135494321,1001675,1/2/2023,0,Inactive
+3279011256, Jane Sussan Smith ,3 Mcauley Dr,2742 Distribution Way,4198006759,1001676,1/3/2023,1,Active
+142001740, Mike Tyson,7 Eads St,426 Wolf St,7739248565,1001677,1/4/2023,0,Inactive
+142437174,David Smith Warner,7 W Jackson Blvd,128 Bransten Rd,4088131105,1001678,1/5/2023,0,Active
+6411410935, Sarah Taylor,5 Boston Ave #88,17 Morena Blvd,6057944823,1001679,1/6/2023,0,Inactive
+1400032717, James Anderson,228 Runamuck Pl #2808,775 W 17th St,4108044694,1001680,1/2/2020,0,Inactive
+1594633665,DeShawn,2371 Jerrold Ave,6980 Dorsett Rd,2154228694,1001681,10/14/2019,0,Active
+679879242,DeAndre Leodo,37275 St  Rt 17m M,2881 Lewis Rd,6316773675,1001682,11/26/2019,0,Inactive
+393978893,Marquis Enriques,25 E 75th St #69,7219 Woodfield Rd,3102543084,1001683,11/20/2019,0,Active
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

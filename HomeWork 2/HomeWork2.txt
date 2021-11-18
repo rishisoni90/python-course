@@ -1,0 +1,136 @@
+The following guidelines should be followed and will be used to grade your homework:
+
+All code to be implemented and submitted as a jupyter notebook (.ipynb) file. Submit a single ipynb file.
+This is an individual homework assignment, no group submissions will be accepted. If you discuss in groups, please write your code individually and submit.
+Sample runs shown in the question should be used as a guide for implementation. However extensive testing needs to be done on your code to deal with all test cases that might possibly be executed.
+The logic of how you are solving the problem should be documented in the cell preceding the code in markdown language. In the case that your code is incorrect, your logic counts as effort points.
+Every code segment in the jupyter notebook cells should be well documented with comments. Use # in the code to provide comments and they should explain the algorithm step and what the code segment is doing. Follow the example in the notebook files provided in the lectures.
+Error checking in your code is very important and differentiates a high quality programmer from a low quality one. Use try/except blocks, if statements and other python code constructs to deal with unexpected errors and deal with them gracefully. The homework will be graded for robustness of your code. You will lose 50% of the points if your code contains error/does not run! You will lose 10% of the points if your code runs but produces wrong result. In the second situation, you will gain some points back if your logic is clear and correct.
+ 
+
+ 
+
+(10 points) Define a function called positivity generator. The function should take user input of a sentence, and find the first appearance of the substring 'not' and 'bad' from the user input. If 'not' appears before the 'bad', the function should replace the whole 'not'...'bad' substring with 'good'. Return the resulting string. Note your function should be able to handle user input with difference cases.
+ 
+
+Example:
+
+Input = 'The ice cream is not bad!'
+
+Output = 'The ice cream is good!"
+
+ 
+
+Input = 'The ice cream is not that bad!'
+
+Output = 'The ice cream is good!"
+
+ 
+
+Input = 'The ice cream is NOT bad at all!'
+
+Output = 'The ice cream is good at all!"
+
+ 
+
+Input = 'The ice cream is not strawberry flavor, but the vanilla flavor is also not bad!'
+
+Output = 'The ice cream is good!"
+
+ 
+
+ 
+
+2. (10 points) Write a function that accepts a line of text and a single letter as input (your program should be able to handle all upper and lower cases) and returns the number of times this letter is the second last character of a word. Note your program should be able to handle different cases. And check if the user input is a single letter.
+
+ 
+
+Example:
+
+Input text = "When the sun rises at dawn, the CHICKEN flies into the window."
+
+Input letter = "E"
+
+Output = "The letter E has appeared 4 times as the second last letter of a word."
+
+ 
+
+ 
+
+ 
+
+(10 points) Write a Python program to ask user input of a string, then ask user input of what letters they want to remove from the string. User can either put in "odd", "even" or a number "n" that is greater than 2. When user input "odd", it will remove the characters which have odd numbers in the sequence of the string. When user input "even", it will remove the characters which have even numbers in the sequence of the string. When user input "n" number, it will remove the characters which have nth numbers in the sequence of the string. Note that we are talking about the sequence of the letters, so the first letter in a string is number 1, the second is number 2, and so on.
+ 
+
+Example:
+
+Input string = "abcdef"
+
+Input choice = "odd"
+
+Output = "bdf"
+
+ 
+
+Input string = "python"
+
+Input choice = "even"
+
+Output = "pto"
+
+ 
+
+Input string = "abcdef"
+
+Input choice = "3"
+
+Output = "abde"
+
+ 
+
+ 
+
+4. (10 points) Write a Python program to create a Caesar encryption. Your program will first ask for the input of a secret message, then ask how many places you wish to shift each letter in the alphabet. In the end, your program will produce the shifted secret message as a string. Your program should be able to handle all upper and lower cases, and check if the user inputs are valid.
+
+ 
+
+Note: In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+
+Example:
+
+Secret message = "This is a secret message"
+
+Shift = 5
+
+Each letter is shifted 5 places to the left in alphabetical order.
+
+Secret output:
+
+"ymnx nx f xjhwjy rjxxflj"
+
+(Hint: the 26 letters in the alphabet is not indexed, put them into a list and index them first)
+
+ 
+
+(10 points) Write a Python program to ask how many elements do users want to create in a list, then let the user create 2 lists with the number of elements previously entered. Then create and display all combinations of letters, selecting each letter from a different key in a dictionary.
+ 
+
+Example:
+
+How many elements?  2
+
+List 1 = ['a', 'b']
+
+List 2 = ['c', 'd']
+
+Output:
+
+ac
+
+ad
+
+bc
+
+bd
+
+Submission

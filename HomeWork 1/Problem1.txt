@@ -1,0 +1,184 @@
+The following guidelines should be followed and will be used to grade your homework:
+
+All code to be implemented and submitted as a jupyter notebook (.ipynb) file. Submit a single ipynb file.
+This is an individual homework assignment, no group submissions will be accepted. If you discuss in groups, please write your code individually and submit.
+Sample runs shown in the question should be used as a guide for implementation. However extensive testing needs to be done on your code to deal with all test cases that might possibly be executed.
+The logic of how you are solving the problem should be documented in the cell preceding the code in markdown language. In the case that your code is incorrect, your logic counts as effort points.
+Every code segment in the jupyter notebook cells should be well documented with comments. Use # in the code to provide comments and they should explain the algorithm step and what the code segment is doing. Follow the example in the notebook files provided in the lectures.
+Error checking in your code is very important and differentiates a high quality programmer from a low quality one. Use try/except blocks, if statements and other python code constructs to deal with unexpected errors and deal with them gracefully. The homework will be graded for robustness of your code. You will lose 50% of the points if your code contains error/does not run! You will lose 10% of the points if your code runs but produces wrong result. In the second situation, you will gain some points back if your logic is clear and correct.
+ 
+
+ 
+
+(10 points) Implement a program that requests three strings from the user. Your program should concatenate the first two strings (string1 + string2) and compare the concatenated string with the third string. If they are equal, your program should print “They are equal”, otherwise, the program should concatenate the two strings in the reverse order (string2 + string1) and compare it with the third string and print “They are also equal”. If this second test also fails, your program should print “They are not equal”. A partial sample run is shown below:
+Enter string 1: Good
+
+Enter string 2: bye!
+
+Enter string 3: Goodbye!
+
+Compare string 1+2 with string 3:
+
+Output: They are equal
+
+ 
+
+Enter string 1: 12
+
+Enter string 2: bye!
+
+Enter string 3: bye!12
+
+Compare string 2+1 with string 3:
+
+Output: They are also equal
+
+ 
+
+Enter string 1: Good
+
+Enter string 2: Pie!
+
+Enter string 3: TasteGood!
+
+Compare string 2+1 or 1+2 with string 3:
+
+Output: They are not equal
+
+ 
+
+(10 points) Write a Python program that reads in 3 integers or 4 integers (user first determines 3 or 4 integers) and displays the following:
+the average of the numbers (round to the closest integer, use < .5 to round down and >= .5 to round up )
+the maximum of the numbers
+the minimum of the numbers
+the median of the numbers. Note that if there was 2 numbers that qualify for the median, you will calculate and display the mean of the 2 numbers (round to the closest integer, use < .5 to round down and >= .5 to round up )
+      A sample run is shown below:
+
+Enter set of 3 or 4 integers: 3
+
+Enter first number: 7
+
+Enter second number: 10
+
+Enter third number: 1
+
+The average of the three numbers is: 6
+
+The maximum of the three numbers is:  10
+
+The minimum of the three numbers is: 1
+
+The median of the three numbers is: 7
+
+ 
+
+Enter set of 3 or 4 integers: 4
+
+Enter first number: 7
+
+Enter second number: 10
+
+Enter third number: 1
+
+Enter fourth number: 6
+
+The average of the three numbers is: 6
+
+The maximum of the four numbers is:  10
+
+The minimum of the four numbers is: 1
+
+The median of the four numbers is: 7
+
+ 
+
+ 
+
+(10 points) A number that is greater than 1 that is not a prime number is called a composite number. An integer, greater than 1, that is only divisible by 1 and itself is called a prime number. The integers 0 and 1 are neither prime nor composite. Write a python program that requests a positive integer from the user, determines if it is a composite, a prime or neither prime or composite and prints the message. You can choose to use iterative loops to repeatedly run this script or have the user run the script for every input. Please specify instructions on which method you are using to run the code in markdown language above the code cell.
+Sample runs are shown below:
+
+Enter positive integer: 5
+
+It is a prime
+
+Enter positive integer: 6
+
+It is a composite
+
+Enter positive integer: 0
+
+It is neither prime nor composite
+
+Enter positive integer: -2
+
+Error: You did not enter a positive integer
+
+Enter positive integer: 2.5
+
+Error: You did not enter a positive integer
+
+Enter positive integer: what is integer?
+
+Error: You did not enter a positive integer
+
+ 
+
+ 
+
+(10 points) Implement a Python function called SmartDivision() that takes two integer arguments. Your function should return the result of the division of the two integers. If the result is an integer, the return type should be an integer. If the result is a floating point number, the return type should be a floating point number.
+ 
+
+Write a main program that requests the two integers (perform error checking for non-integer inputs). Also in the main program you should call your defined function SmartDivision() that takes 2 arguments and display the result of the division and the return type.
+
+ 
+
+Write your function definition in one cell and the function calling main program below it or in a different cell in Jupyter Notebook. I will be testing this program by modifying your program that calls this function.
+
+ 
+
+ 
+
+(10 points) Write a program that takes as input two opposite corners of a rectangle: (x1,y1) and (x2,y2) – float or integer only. Finally, the user is prompted for the coordinates of a third point (x,y). The program should print Boolean value True or False based on whether the point (x,y) lies within the rectangle. At the end of each run, the user should be prompted to ask whether they want to continue.
+Note that the rectangle could fall anywhere in the 2X2 plane of real numbers.
+
+ 
+
+Sample runs are shown below
+
+Enter x1: 1
+
+Enter y1: 3
+
+Enter x2: 10
+
+Enter y2: 6
+
+Enter x: 4
+
+Enter y: 4
+
+True
+
+Do you want to continue: Y
+
+ 
+
+Enter x1: 1
+
+Enter y1: 3
+
+Enter x2: 10
+
+Enter y2: 6
+
+Enter x: 4
+
+Enter y: 2
+
+False
+
+Do you want to continue: N
+
+Goodbye!
+
+ 
